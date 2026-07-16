@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Emerald Travel LLP</title>
+  <meta name="description" content="Contact Emerald Travel LLP for flight bookings, hotel reservations, and holiday packages. Call 866-886-0836 or visit us in Pewee Valley, KY.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo"><div class="logo-icon"><span>E</span></div><div class="logo-text">Emerald<em>Travel</em></div></a>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Home</a><a href="flights.html">Flights</a><a href="hotels.html">Hotels</a>
+          <a href="holidays.html">Holidays</a><a href="about.html">About</a><a href="contact.html" class="active">Contact</a>
+          <a href="contact.html" class="nav-cta">Book Now</a>
+        </div>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="container">
+      <div class="page-hero-content">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you. Reach out to plan your next trip or ask any questions.</p>
+        <div class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Contact</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- CONTACT INFO -->
+        <div>
+          <div class="section-badge" style="margin-bottom: 20px;">📞 Get in Touch</div>
+          <h2 style="font-size: 1.8rem; margin-bottom: 8px;">We're Here to Help</h2>
+          <p style="color: var(--text-muted); margin-bottom: 32px;">Whether you need a quick quote or want to plan an elaborate vacation, our team is ready to assist.</p>
+
+          <div class="contact-info-cards">
+            <div class="contact-info-card fade-in">
+              <div class="contact-info-icon">📍</div>
+              <div>
+                <h3>Our Address</h3>
+                <p>Emerald Travel LLP<br>PO Box 794, Pewee Valley, KY 40056</p>
+              </div>
+            </div>
+            <div class="contact-info-card fade-in">
+              <div class="contact-info-icon">📞</div>
+              <div>
+                <h3>Call Us</h3>
+                <p><a href="tel:+18668860836">866-886-0836</a></p>
+                <p>Mon-Fri: 9AM - 7PM EST | Sat: 10AM - 4PM EST</p>
+              </div>
+            </div>
+            <div class="contact-info-card fade-in">
+              <div class="contact-info-icon">✉️</div>
+              <div>
+                <h3>Email Us</h3>
+                <p><a href="mailto:emeraldtravelllp@outlook.com">emeraldtravelllp@outlook.com</a></p>
+                <p>We respond within 24 hours</p>
+              </div>
+            </div>
+            <div class="contact-info-card fade-in">
+              <div class="contact-info-icon">🕐</div>
+              <div>
+                <h3>Business Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 7:00 PM EST</p>
+                <p>Saturday: 10:00 AM - 4:00 PM EST</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form fade-in">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required placeholder="Your first name">
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Your last name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (xxx) xxx-xxxx">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="flights">Flight Booking</option>
+                <option value="hotels">Hotel Reservation</option>
+                <option value="holidays">Holiday Package</option>
+                <option value="custom">Custom Trip Planning</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Tell us about your travel plans, preferred dates, destinations, and any special requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div style="border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md);">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12543.3!2d-85.4883!3d38.3119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d1a1a1a1a1b%3A0x1234567890abcdef!2sPewee%20Valley%2C%20KY%2040056!5e0!3m2!1sen!2sus!4v1700000000000" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Emerald Travel LLP Location"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><div class="logo-icon"><span>E</span></div><div class="logo-text">Emerald<em>Travel</em></div></a>
+          <p>Your trusted travel partner based in Pewee Valley, Kentucky. We specialize in flights, hotels, and holiday packages worldwide.</p>
+          <div class="footer-social"><a href="#">f</a><a href="#">ig</a><a href="#">𝕏</a><a href="#">in</a></div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="flights.html">Flights</a></li><li><a href="hotels.html">Hotels</a></li><li><a href="holidays.html">Holidays</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Destinations</h4><ul><li><a href="holidays.html">Paris, France</a></li><li><a href="holidays.html">Maldives</a></li><li><a href="holidays.html">Dubai, UAE</a></li><li><a href="holidays.html">Bali, Indonesia</a></li><li><a href="holidays.html">Santorini, Greece</a></li></ul></div>
+        <div class="footer-col"><h4>Contact Info</h4><ul><li>📍 PO Box 794, Pewee Valley, KY 40056</li><li>📞 <a href="tel:+18668860836">866-886-0836</a></li><li>✉️ <a href="mailto:emeraldtravelllp@outlook.com">emeraldtravelllp@outlook.com</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Emerald Travel LLP. All rights reserved.</p><div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div></div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
